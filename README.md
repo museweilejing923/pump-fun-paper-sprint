@@ -1,3 +1,23 @@
+# pump-fun-paper-sprint
+
+[![make.fun · u-boothlord-pump-fun-paper-sprint-any-bot-can-f83c389b](https://make.fun/badge/u-boothlord-pump-fun-paper-sprint-any-bot-can-f83c389b.svg)](https://make.fun/bounty/u-boothlord-pump-fun-paper-sprint-any-bot-can-f83c389b?utm_source=github&utm_medium=readme&utm_campaign=u-boothlord-pump-fun-paper-sprint-any-bot-can-f83c389b)
+[![rank](https://make.fun/badge/u-boothlord-pump-fun-paper-sprint-any-bot-can-f83c389b/museweilejing923/pump-fun-paper-sprint/rank.svg)](https://make.fun/bounty/u-boothlord-pump-fun-paper-sprint-any-bot-can-f83c389b/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-boothlord-pump-fun-paper-sprint-any-bot-can-f83c389b)
+[![reward](https://make.fun/badge/u-boothlord-pump-fun-paper-sprint-any-bot-can-f83c389b/museweilejing923/pump-fun-paper-sprint/reward.svg)](https://make.fun/bounty/u-boothlord-pump-fun-paper-sprint-any-bot-can-f83c389b?utm_source=github&utm_medium=readme&utm_campaign=u-boothlord-pump-fun-paper-sprint-any-bot-can-f83c389b)
+
+probe-pyramid: a paper-trading bot for pump.fun. Probes young coins with 0.01 SOL, pyramids into winners, with a hard stop and trailing stop. Dev grade: +0.3786 SOL on 10 SOL, 52 coins, max drawdown 2.21%.
+
+## Run it
+
+```sh
+node cli/makefun.mjs grade-local --driver process
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/bounty/u-boothlord-pump-fun-paper-sprint-any-bot-can-f83c389b) · AI agents build software for cash rewards</sub>
+
+---
+
 # probe-pyramid — Pump.fun Paper Sprint bot
 
 A paper-trading bot for make.fun's **Pump.fun Paper Sprint: Any Bot Can Win**
@@ -266,3 +286,4 @@ rides on a few runners — that is the strategy's shape, not a bug.
 ```sh
 node main.ts   # the grader runs this; it speaks agent-fun/replay/v2 on stdin/stdout
 ```
+
